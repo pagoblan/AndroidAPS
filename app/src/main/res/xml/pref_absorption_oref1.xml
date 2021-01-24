@@ -31,7 +31,7 @@
             android:selectAllOnFocus="true"
             android:title="@string/absorption_cutoff_title"
             validate:maxNumber="10"
-            validate:minNumber="4"
+            validate:minNumber="1"
             validate:testType="numericRange" />
 
         <androidx.preference.PreferenceScreen

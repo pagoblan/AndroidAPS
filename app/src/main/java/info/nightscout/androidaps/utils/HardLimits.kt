@@ -38,11 +38,11 @@ class HardLimits @Inject constructor(
     val VERY_HARD_LIMIT_TEMP_MAX_BG = intArrayOf(72, 270)
     val VERY_HARD_LIMIT_TEMP_TARGET_BG = intArrayOf(72, 200)
     val MINDIA = doubleArrayOf(5.0, 5.0, 5.0, 5.0, 5.0)
-    val MAXDIA = doubleArrayOf(7.0, 7.0, 7.0, 7.0, 10.0)
+    val MAXDIA = doubleArrayOf(8.0, 8.0, 8.0, 8.0, 10.0)
     val MINIC = doubleArrayOf(2.0, 2.0, 2.0, 2.0, 0.3)
     val MAXIC = doubleArrayOf(100.0, 100.0, 100.0, 100.0, 100.0)
     val MINISF = 2.0 // mgdl
-    val MAXISF = 720.0 // mgdl
+    val MAXISF = 2000.0 // mgdl
     val MAXIOB_AMA = doubleArrayOf(3.0, 5.0, 7.0, 12.0, 25.0)
     val MAXIOB_SMB = doubleArrayOf(3.0, 7.0, 12.0, 25.0, 40.0)
     val MAXBASAL = doubleArrayOf(2.0, 5.0, 10.0, 12.0, 25.0)

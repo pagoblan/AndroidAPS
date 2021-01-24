@@ -35,7 +35,7 @@ class XdripPlugin @Inject constructor(
     private var sensorBatteryLevel = -1
 
     override fun advancedFilteringSupported(): Boolean {
-        return advancedFiltering
+        return true
     }
 
     override fun handleNewData(intent: Intent) {
